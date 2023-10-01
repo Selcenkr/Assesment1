@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(to right, rgba(191, 169, 196, 0.502), rgba(171, 141, 161, 0.495));
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Noto Serif JP', serif;
+    text-shadow: 5px 5px 0px grey;
+    
+}
+
+h2{
+    margin: 5px;
+    color: rgb(252, 175, 31);
+
+}
+div{
+    display: block;
+    
+}
+img{
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.box{
+    margin: 30px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #ae3b609c, #471b4286);
+    width: 80%;
+    height: 240px;
+    border-radius: 3px;
+
+}
+
+a{
+    border: 1px solid orange;
+    width: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+   
+    
+}
+
+a:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+
+
+}
+
+.box4{
+    margin: 30px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #ae3b609c, #471b4286);
+    width: 80%;
+    height: 230px;
+    border-radius: 3px;
+}
+
+.box5{
+    margin: 30px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #ae3b609c, #471b4286);
+    width: 80%;
+    height: 280px;
+    border-radius: 3px;
+
+}
